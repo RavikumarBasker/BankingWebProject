@@ -1,0 +1,22 @@
+body {
+  background-image: url("./staticcontents/landingpageimage.jpg");
+  background-size: auto;
+}
+.info-button {
+  margin-left: 30px;
+}
+
+h3{
+  margin-left: auto;
+  margin-right: auto;
+  color: yellow   ;
+}
+
+.bankname {
+  text-align: center;
+}
+
+.smallbusinessbody {
+  background-image: url("./staticcontents/smallbusinesspageimage.jpg");
+  background-size: auto;
+}
