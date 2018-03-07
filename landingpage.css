@@ -1,27 +1,31 @@
 #landingpagebody {
   background-image: url("./staticcontents/landingpageimage.jpg");
-  background-size: auto;
+  background-size: cover;
   height: 100%;
 }
 
+.top-margin {
+  margin-top: 20px;
+}
+
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #276574;
     border: none;
     color: white;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 16px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
 }
 .login-btn {
-    background-color: ;
-    color: black;
-    border: 1px solid #4CAF50;
+    /* background-color: ;
+    color: black; */
+    border: 1px solid #C9F220;
 }
 
 .login-btn:hover {
@@ -52,6 +56,6 @@ h3 {
 
 .smallbusinessbody {
   background-image: url("./staticcontents/smallbusinesspageimage.jpg");
-  background-size: cover;
+  background-size: auto;
   height: 100%;
 }
