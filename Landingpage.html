@@ -11,14 +11,17 @@
 </head>
 
 <!-- Adds background image to the whole page -->
+
 <body id="landingpagebody">
-  <div class="container-fluid top-margin" >
+
+  <!--This div is for the top heading row container  -->
+  <div class="container-fluid top-margin">
     <div class="row">
       <div class="col-md-8 col-sm-6">
-        <h3 >Bank of Dollarites</h3>
+        <h3>Bank of Dollarites</h3>
       </div>
       <div class="col-md-2 col-sm-3" style="text-align:right;">
-        <button type="button" class="button btn btn-lg login-btn">Login</span>
+        <button id="loginbutton" type="button" class="button btn btn-lg login-btn" onclick="createLoginDiv()">Login</span>
         <!-- <button type="button" class="login-btn btn btn-lg btn-default">Login</button> -->
       </div>
       <div class="col-md-2 col-sm-3" style="text-align:right;">
@@ -33,14 +36,16 @@
     <button type="button" class="info-button btn btn-lg btn-info" onclick=menuelements(event, Wealth Management)>Wealth Management</button>
     <p id="personalpage"></p>
   </div>
-  <div>
+  <div id="loginformdiv">
+
+  </div>
+  <!-- <div>
     <form name="inputform">
       <input type="text" placeholder="Username" />
       <input type="text" placeholder="Password" />
-      <input type="button" placeholder="Submit"/>
+      <input type="button" placeholder="Submit" />
     </form>
-
-  </div>
+  </div> -->
 </body>
 
 </html>
